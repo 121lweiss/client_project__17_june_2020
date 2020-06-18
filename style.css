@@ -1,0 +1,184 @@
+body {
+    background-color:black;
+}
+.page_header {
+    text-align:center;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    font-size:75px;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/000/598/501/non_2x/light-blue-vector-low-poly-crystal-background-polygon-design-pa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius:7px;
+
+}
+.navbar{
+    display:inline;
+    position: sticky;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    transition-duration: 0.4s;
+    border-color:black;
+    font-family: 'Questrial', sans-serif;
+    font-size:20px;
+}
+.btn:not(:last-child) {
+  border-right: none;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.preview {
+    text-align: center;
+    width:300px;
+    height:300px;
+}
+.section_info {
+    text-align:center;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    font-size: 38px;
+}
+.content{
+    border-style: solid;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/000/598/501/non_2x/light-blue-vector-low-poly-crystal-background-polygon-design-pa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    border-radius:7px;
+}
+.section_header {
+    font-family: 'Questrial', sans-serif;
+    color: RoyalBlue;
+    font-size: 48px;
+}
+.intro {
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    font-size: 35px;
+    text-indent: 50px;
+}
+.lists {
+    text-align:center;
+}
+.list_info {
+    color:red;
+    font-weight: bold;
+}
+.links:hover {
+    color: red;
+}
+.recomended {
+    color:green;
+}
+.not_recomended {
+    color:red;
+}
+.amd {
+    color:#990000;
+    text-decoration: underline;
+}
+.intel {
+    color:#0071c5;
+    text-decoration: underline;
+}
+.intelcpu_part_image {
+    width:250px;
+    height:250px;
+}
+.intelcpu {
+    display:none;
+}
+.intelcpu_part_image:hover + .intelcpu {
+    display: block;
+    color:#0071c5;
+}
+.amdcpu_part_image {
+    width:250px;
+    height:250px;
+}
+.amdcpu {
+    display:none;
+}
+.amdcpu_part_image:hover + .amdcpu {
+    display: block;
+    color:#990000;
+}
+.mem_part_image {
+    width:250px;
+    height:250px;
+}
+.mobo_part_image {
+    width:250px;
+    height:250px;
+}
+.mobo_part_image {
+    width:250px;
+    height:250px;
+}
+.m2_part_image {
+    width:250px;
+    height:250px;
+}
+.niviagpu_part_image {
+    width:250px;
+    height:250px;
+}
+.amdgpu_part_image {
+    width:250px;
+    height:250px;
+}
+.case_part_image {
+    width:250px;
+    height:250px;
+}
+.psu_part_image {
+    width:250px;
+    height:250px;
+}
+.fan_part_image {
+    width:250px;
+    height:250px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: WHITE;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: LIGHTBLUE;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
